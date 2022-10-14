@@ -56,6 +56,10 @@ a:hover {
     font-style: italic;
     font-size: 20px;
 }
+#bloc-2-services > div > div.row.voffset-lg.voffset > div{
+    margin: auto;
+    float: none;
+}
 .center-comment{
     font-size: 20px;
     font-style: normal;
@@ -68,7 +72,13 @@ a:hover {
     padding: 0 19%;
 }
 .text-center{
-    font-size: 14px;
+    font-size: 1.5rem;
+}
+#bloc-3-what-i-do > div > div > div > h2{
+    font-size: 1.7rem;
+}
+#bloc-5-cta > div > div > h2{
+    font-size: 2rem;
 }
 
 .bg-center,
