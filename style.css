@@ -725,6 +725,8 @@ p {
 }
 
 .social {
+    display: flex;
+    justify-content: space-around;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -766,6 +768,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 345px;
 }
 
 .portfolio-row {
@@ -800,7 +803,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+    font-size: 3rem!important;
+    position: relative;
 }
 .tc-white_contact-text{
     color: #FFFFFF!important;
